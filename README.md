@@ -12,6 +12,7 @@ DNA methylation and epigenetic regulation
 Immunogenomics (HLA typing)
 
 🧪 Projects
+
 1️⃣ RNA-seq Differential Expression Analysis
 Performed DEG analysis using limma on GEO datasets
 Identified significantly upregulated and downregulated genes
