@@ -1,45 +1,51 @@
 🧬 Bioinformatics Portfolio – Multi-Omics Analysis for Rheumatoid Arthritis (RA)
 
-This repository showcases my bioinformatics projects focused on multi-omics data analysis for biomarker discovery in Rheumatoid Arthritis (RA).
+This repository presents my bioinformatics work focused on multi-omics data analysis for biomarker discovery in Rheumatoid Arthritis (RA).
 
-My work integrates transcriptomics, epigenomics, and proteomics data, along with HLA typing analysis, to understand disease mechanisms and identify potential biomarkers using computational approaches.
+The project integrates multiple biological data layers to understand disease mechanisms and identify potential biomarkers using computational approaches.
 
-🔬 Research Focus
-Multi-omics integration (Transcriptomics + Epigenomics + Proteomics)
-Biomarker discovery in autoimmune diseases (RA)
-Differential gene expression (DEG) analysis
-DNA methylation and epigenetic regulation
-Immunogenomics (HLA typing)
+🔬 Multi-Omics Framework
 
-🧪 Projects
+This work is structured into the following omics layers:
 
-1️⃣ RNA-seq Differential Expression Analysis
-Performed DEG analysis using limma on GEO datasets
-Identified significantly upregulated and downregulated genes
-Generated volcano plots and heatmaps for visualization
+Transcriptomics → RNA-seq differential gene expression analysis
+Epigenomics → DNA methylation (DMR) analysis
+Proteomics → LC-MS based differential protein expression
+Immunogenomics → HLA typing analysis
 
-2️⃣ DNA Methylation Analysis (Epigenomics)
-Identified hypermethylated and hypomethylated genes
-Studied epigenetic regulation and its impact on gene expression
-Visualized results using volcano plots
+🧪 Project Structure
 
-3️⃣ Proteomics Analysis
-Analyzed protein expression patterns in disease context
-Explored relationships between gene expression and protein-level changes
-Interpreted biological significance of differential protein expression
+🧾 Multi-Omics Biomarker Discovery
 
-4️⃣ HLA Typing Analysis
-Worked with HLA allele prediction tools (e.g., OptiType)
-Explored immunogenetic variations associated with disease
-Gained understanding of immune response and antigen presentation
+Organized into separate omics-specific analyses
+Each folder contains code, outputs, and documentation
 
-🛠 Technical Skills
+📊 Sample Outputs
+
+🔬 Transcriptomics – Volcano Plot
+
+🧬 Epigenomics – Methylation Volcano Plot
+
+🛠 Technical Skills Demonstrated
+
 Programming: R (limma, DESeq2, sva), Python (basic)
 Bioinformatics: Transcriptomics, epigenomics, proteomics, multi-omics integration
-
 Tools: GEO, Cytoscape, STRING, OptiType
 Visualization: ggplot2, heatmaps, volcano plots
 
-💡 Objective
+💡 Key Focus
 
-To apply bioinformatics and multi-omics approaches for understanding disease mechanisms, immunogenetic variation, and identifying clinically relevant biomarkers, contributing to translational and precision medicine research.
+Integration of multi-omics data
+Identification of disease-associated biomarkers
+Understanding gene regulation and immune mechanisms in RA
+
+🚀 Status
+
+Transcriptomics analysis ✔ Completed
+Epigenomics analysis ✔ Completed
+Proteomics analysis 🔄 In progress
+HLA typing 🔄 In progress
+
+📌 Note
+
+This repository is part of an ongoing project and will be continuously updated with additional analyses and results.
